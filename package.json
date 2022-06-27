@@ -1,0 +1,14 @@
+{
+    "name": "@bobanm/cardinal",
+    "version": "0.0.1",
+    "description": "Simple responsive card-baseds CSS layout that utilizes grid features",
+    "main": "cardinal.css",
+    "keywords": [
+        "CSS",
+        "responsive",
+        "grid",
+        "card"
+    ],
+    "author": "Boban Milošević",
+    "license": "ISC"
+}
