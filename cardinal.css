@@ -3,7 +3,7 @@
     CARDINAL CSS FRAMEWORK
 
     This file contains the basic styles of Cardinal CSS.
-    Create a custom CSS file in your project and at the top import this file using:
+    Create a custom CSS file in your project and import this file at the top of your custom CSS:
     
     @import '@bobanm/cardinal'
 
@@ -143,12 +143,12 @@ img.bottom {
     width: 64px;
 }
 
-img.right, img.bottom {
+img.zoom {
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
 }
 
-img.right:hover, img.bottom:hover {
+img.zoom:hover {
     transform: scale(1.2, 1.2);
 }
 
