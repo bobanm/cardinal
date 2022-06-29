@@ -32,7 +32,7 @@ body {
     font-weight: var(--weight1);
     color: var(--grayText);
     background-color: var(--veryLightGray);
-    margin: 1em;
+    margin: 0.5em;
 }
 
 main {
@@ -40,7 +40,16 @@ main {
     grid-template-columns: 1fr;
     gap: 2rem;
     max-width: 70rem;
-    margin: 0 auto;
+    margin: 0.5em auto;
+}
+
+div, h2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+h2 {
+    white-space: nowrap;
 }
 
 button, input {
@@ -130,7 +139,6 @@ section {
     border-radius: 0.5em;
     box-shadow: 0 1em 2.5em -1em var(--grayishBlue);
     padding: 2em;
-    overflow-wrap: break-word;
     border-top: 3px solid;
     transition-duration: 0.25s;
     transition-timing-function: ease-out;
