@@ -43,12 +43,6 @@ main {
     margin: 0.5em auto;
 }
 
-@media (min-width: 50em) {
-    main {
-        gap: 1em;
-    }
-}
-
 div, h2 {
     text-overflow: ellipsis;
     overflow: hidden;
