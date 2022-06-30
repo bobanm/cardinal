@@ -38,9 +38,15 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
-    max-width: 70rem;
+    gap: 0.5em;
+    max-width: 64em;
     margin: 0.5em auto;
+}
+
+@media (min-width: 50em) {
+    main {
+        gap: 1em;
+    }
 }
 
 div, h2 {
@@ -137,7 +143,7 @@ button:hover:enabled, button:active:enabled {
 
 section {
     border-radius: 0.5em;
-    box-shadow: 0 1em 2.5em -1em var(--grayishBlue);
+    box-shadow: 0 0.5em 1.5em -0.5em var(--grayishBlue);
     padding: 2em;
     border-top: 3px solid;
     transition-duration: 0.25s;
@@ -145,7 +151,7 @@ section {
 }
 
 section:hover {
-    box-shadow: 0 1em 2.5em 0 var(--grayishBlue);
+    box-shadow: 0 0.5em 2em -0.1em var(--grayishBlue);
 }
 
 section.top-cyan {
