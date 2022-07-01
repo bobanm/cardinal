@@ -1,6 +1,6 @@
 {
     "name": "@bobanm/cardinal",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Simple responsive card-baseds CSS layout that utilizes grid features",
     "main": "cardinal.css",
     "keywords": [
