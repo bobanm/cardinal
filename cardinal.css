@@ -150,6 +150,7 @@ section {
     box-shadow: 0 0.5em 1.5em -0.5em var(--grayishBlue);
     padding: 2em;
     border-top: 3px solid;
+    overflow: hidden;
     transition-duration: 0.25s;
     transition-timing-function: ease-out;
 }
